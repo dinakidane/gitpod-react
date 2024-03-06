@@ -1,14 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import StatefulGreeting from './components/StatefulGreeting';
+import RenderingLists from './components/RenderingLists';
 
 function App() {
   return (
     <div className="App">
-      <StatefulGreeting />
+      <RenderingLists />
       </div>
   );
 }
+
 
 export default App;
 
