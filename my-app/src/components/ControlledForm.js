@@ -5,7 +5,7 @@ export class ControlledForm extends Component {
       super(props)
     
       this.state = {
-         first
+         name: ''
       }
     }
 
@@ -14,7 +14,11 @@ export class ControlledForm extends Component {
         <div>
             <form>
                 <label htmlFor='id-name'>Your Name:</label>
-                <input id='id-name' name='name' type='text' />
+                <input 
+                    value = {this.state.name} 
+                    id='id-name' 
+                    name='name' 
+                    type='text' />
                 <input type='submit' value='Submit' />
             </form>
         </div>
