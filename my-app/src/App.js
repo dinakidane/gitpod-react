@@ -1,10 +1,11 @@
 import "./App.css";
-import UncontrolledForm from './components/UncontrolledForm'
-
+import HooksCounter from "./components/HooksCounter";
+import ClassCounter from "./components/ClassCounter";
 
 function App() {
   return <div className="App">
-      <UncontrolledForm />
+      <HooksCounter />
+      <ClassCounter />
     </div>;
 }
 
